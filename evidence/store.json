@@ -1,0 +1,15 @@
+{
+ "spec": "ltb-evidence-store/1",
+ "name": "Mathlib",
+ "library": {
+  "repo": "leanprover-community/mathlib4",
+  "root": "Mathlib"
+ },
+ "datasets": {
+  "repo": "LeanTrustBuilders/mathlib-explorer",
+  "tag": "mathlib-dataset-{commit12}",
+  "asset": "dataset.tar.gz"
+ },
+ "claims": [],
+ "maintainers": []
+}
