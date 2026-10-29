@@ -20,10 +20,15 @@ never anonymous: each names the GitHub account it came from, and an AI agent's a
 An agent can also submit from a terminal with
 [`evidence-store submit`](https://github.com/LeanTrustBuilders/evidence-store#who-wrote-it).
 
-A record names its declaration by what it means, so it applies wherever the declaration is used: a
-store about a library built on Mathlib can import the Mathlib store (`imports` in its `store.json`,
-S3's [imported records](https://github.com/LeanTrustBuilders/specs/blob/main/S3-evidence.md#imported-records)),
-and its pages then show these records beside its own.
+## Where the records show
+
+- [Mathlib Explorer](https://leantrustbuilders.github.io/mathlib-explorer/) shows them on the page
+  of each declaration, with buttons that open the forms filled in for it. Its site is rebuilt within
+  the hour when this repository changes.
+- A record names its declaration by what it means, so it applies wherever the declaration is used:
+  a store about a library built on Mathlib can import the Mathlib store (`imports` in its
+  `store.json`, S3's [imported records](https://github.com/LeanTrustBuilders/specs/blob/main/S3-evidence.md#imported-records)),
+  and its pages then show these records beside its own.
 
 ## How it is set up
 
